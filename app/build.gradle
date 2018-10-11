@@ -2,15 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.wdz.gradleconfig'
 
 android {
-    compileSdkVersion rootProject.ext.android.compileSdkVersion
-    buildToolsVersion rootProject.ext.android.buildToolsVersion
+    compileSdkVersion wdzConfig.compileSdkVersion
+    buildToolsVersion wdzConfig.buildToolsVersion
 
     defaultConfig {
         applicationId "com.wdz.architecture.gradleconfig.demo"
-        minSdkVersion rootProject.ext.android.minSdkVersion
-        targetSdkVersion rootProject.ext.android.targetSdkVersion
-        versionCode rootProject.ext.android.versionCode
-        versionName rootProject.ext.android.versionName
+        minSdkVersion wdzConfig.minSdkVersion
+        targetSdkVersion wdzConfig.targetSdkVersion
         versionCode 1
         versionName "1.0"
     }
@@ -24,6 +22,6 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile rootProject.ext.dependencies["appcompat-v7"]
-    compile rootProject.ext.dependencies["KLog"]
+    compile wdzConfig.libAppcompatV7
+    compile wdzConfig.libKLog
 }

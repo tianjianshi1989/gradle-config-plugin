@@ -1,5 +1,10 @@
 自定义Gradle插件，针对第三方sdk进行版本控制
 
+自定义插件项目 - 【module】gradleconfig
+
+
+引用自定义插件(供参考) - 【module】app主项目
+
 ## 参考文档：
 
 在AndroidStudio中自定义Gradle插件
