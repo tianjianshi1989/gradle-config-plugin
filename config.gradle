@@ -1,0 +1,75 @@
+ext {
+    android = [compileSdkVersion: 26,
+               buildToolsVersion: "26.0.2",
+               applicationId    : "com.kedacom.ovopark",
+               minSdkVersion    : 21,
+               targetSdkVersion : 26,
+               versionCode      : 32019,
+               versionName      : "3.20.19_release"]
+
+    dependencies = ["multidex"            : "com.android.support:multidex:1.0.2",
+                    "appcompat-v7"        : "com.android.support:appcompat-v7:26.1.0",
+                    "design"              : "com.android.support:design:26.1.0",
+                    "recyclerview-v7"     : "com.android.support:recyclerview-v7:26.1.0",
+                    "cardview-v7"         : "com.android.support:cardview-v7:26.1.0",
+                    "support-v4"          : "com.android.support:support-v4:26.1.0",
+                    "gridlayout-v7"       : "com.android.support:gridlayout-v7:26.1.0",
+                    "springanimation"     : "com.android.support:support-dynamic-animation:26.1.0",
+                    "stickyrecyclerview"  : "com.caoustc.library:stickyrecyclerview:1.1.0",
+                    "rxjava"              : "io.reactivex.rxjava2:rxjava:2.1.7",
+                    "rxbinding"           : "com.jakewharton.rxbinding2:rxbinding:2.0.0",
+                    "okhttplib"           : "com.caoustc.library:okhttplib:2.3.0",
+                    "gallerylib"          : "com.caoustc.library:gallerylib:1.3.3",
+                    "umeng-common"        : "com.umeng.sdk:common:1.5.3",
+                    "umeng-analytics"     : "com.umeng.sdk:analytics:7.5.3",
+                    "safewebviewbridge"   : "cn.pedant.safewebviewbridge:library:1.4",
+                    "jpush"               : "cn.jiguang.sdk:jpush:3.1.5",
+                    "jcore"               : "cn.jiguang.sdk:jcore:1.2.3",
+                    "flycoTabLayout"      : "com.flyco.tablayout:FlycoTabLayout_Lib:2.0.8@aar",
+                    "eventbus"            : "org.greenrobot:eventbus:3.0.0",
+                    "glide"               : "com.github.bumptech.glide:glide:3.7.0",
+                    "circularimageview"   : "com.mikhaellopez:circularimageview:3.0.2",
+                    "livesdk"             : "com.tencent.livesdk:livesdk:1.1.4",
+                    //腾讯云IM相关
+                    "ilivesdk"            : "com.tencent.ilivesdk:ilivesdk:1.7.2",
+                    "rtmpsdk"             : "com.tencent.rtmpsdk:rtmpsdk:1.0.1",
+                    "butterknife"         : "com.jakewharton:butterknife:7.0.1",
+                    "ilivefilter"         : "com.tencent.ilivefilter:ilivefilter:1.1.14",
+                    "ViewPagerIndicator"  : "com.shizhefei:ViewPagerIndicator:1.1.5",
+                    "okgo"                : "com.lzy.net:okgo:3.0.4",
+                    "okserver"            : "com.lzy.net:okserver:2.0.5",
+                    "timebarview"         : "com.caoustc.library:timebarview:1.4",
+                    "bannerViewpage"      : "com.youth.banner:banner:1.4.10",
+                    "commonadapter"       : "com.zhy:base-rvadapter:3.0.3",
+                    "mpchart"             : "com.github.PhilJay:MPAndroidChart:v3.0.3",
+                    "Chart_Realm"             : "com.github.PhilJay:MPAndroidChart-Realm:v2.0.2@aar",
+                    "easingLib"           : "com.daimajia.easing:library:2.0@aar",
+                    "androidanimations"   : "com.daimajia.androidanimations:library:2.3@aar",
+                    "socketlib"           : "com.caoustc.library:socketlib:1.0.8",
+                    "waveview"            : "com.github.caoustc:wave:v1.3.7",
+                    "smartrefresh"        : "com.scwang.smartrefresh:SmartRefreshLayout:1.0.3",
+                    "smartrefreshhead"    : "com.scwang.smartrefresh:SmartRefreshHeader:1.0.3",
+                    //超长图片
+                    "scale-image"         : "com.davemorrissey.labs:subsampling-scale-image-view:3.6.0",
+                    "RickText"            : 'com.github.CarGuo.RickText:textUtilsLib:v2.1.5',
+                    "slidableactivity"    : "com.r0adkll:slidableactivity:2.0.5",
+                    "Circle-Progress-View": "com.github.jakob-grabner:Circle-Progress-View:v1.3",
+                    "KLog"                : "com.github.zhaokaiqiang.klog:library:1.6.0",
+                    // https://github.com/greenrobot/greenDAO
+                    "libGreenDao"         : "org.greenrobot:greendao:3.2.2",
+                    "fresco"              : "com.facebook.fresco:fresco:1.5.0",
+                    //"fresco-gif"              : 'com.facebook.fresco:animated-gif:1.5.0'
+                    "rxpermission"        : "com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar",
+                    //https://github.com/Bilibili/ijkplayer
+//                    "ijkplayer"         : "tv.danmaku.ijk.media:ijkplayer-java:0.8.8",
+//                    "videocache"         : "com.danikula:videocache:2.7.0"
+                    //https://github.com/lingochamp/FileDownloader
+                    "filedownloader"      : "com.liulishuo.filedownloader:library:1.7.2",
+                    "settingscompat"      : "com.github.czy1121:settingscompat:1.1.4",
+                    "ffmpeglib"           : "com.caoustc.library:ffmpeglib:0.0.5",
+                    "pandora"             : "com.github.whataa:pandora:v1.0.1",
+                    "qiniulib"            : "com.caoustc.library:qiniulib:2.1.5",
+                    "cameravideolib"      : "com.caoustc.library:cameravideolib:0.0.4"
+    ]
+
+}
